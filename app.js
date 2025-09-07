@@ -1,7 +1,6 @@
 
-function rollDice() {
-    let rand = Math.floor(Math.random()*6)+1
-    console.log(rand);
+function sum (a,b) {
+      return a*b
 }
 
-rollDice ();
+console.log(sum(5 ,5));
